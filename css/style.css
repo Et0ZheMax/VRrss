@@ -91,8 +91,8 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #f5f5f7;
-  color: #000;
+  background-color: #252742;
+  color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: calc(16 / var(--screensize) * 100vw);
@@ -354,6 +354,7 @@ span.signin__form__field__input img {
 .page-title {
   margin: 0 0 calc(30 / var(--screensize) * 100vw);
   font-size: calc(36 / var(--screensize) * 100vw);
+  color: #fff;
 }
 
 .menu__bottom {
@@ -715,6 +716,25 @@ span.signin__form__field__input img {
   height: calc(445 / var(--screensize) * 100vw);
 }
 
+.features {
+  list-style: none;
+  margin: calc(20 / var(--screensize) * 100vw) 0;
+  padding: 0;
+}
+
+.features li {
+  background-color: #191A2B;
+  border-radius: calc(10 / var(--screensize) * 100vw);
+  padding: calc(15 / var(--screensize) * 100vw) calc(20 / var(--screensize) * 100vw);
+  margin-bottom: calc(10 / var(--screensize) * 100vw);
+  color: #fff;
+  font-size: calc(20 / var(--screensize) * 100vw);
+}
+
+.features li:last-child {
+  margin-bottom: 0;
+}
+
 .rates__item {
   background-color: #2D2C51;
   -webkit-box-shadow: 0px 4px 10px rgba(3, 4, 8, 0.1);
@@ -884,6 +904,7 @@ span.signin__form__field__input img {
 .main-plates__plate h2 {
   margin: 0 0 calc(20 / var(--screensize) * 100vw);
   font-size: calc(30 / var(--screensize) * 100vw);
+  color: #fff;
 }
 .main-plates__plate p {
   font-size: calc(18 / var(--screensize) * 100vw);
